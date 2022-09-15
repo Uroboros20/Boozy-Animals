@@ -6,42 +6,46 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная - Лис и Волк</title>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<header>
-    <a href="#">
+<header id="header">
+    <div class="container" >
+        <a id="logo" href="#">
         <img src="https://cdn2.f-cdn.com/contestentries/949093/20073033/589f765cbd43d_thumb900.jpg"
              alt="Logo"
-             width="70">
+             width="60">
         <span>Лис и Волк</span>
     </a>
 
-    <nav>
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Гугл</a></li>
-            <li><a href="#">Описание</a></li>
-        </ul>
-    </nav>
-
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Гугл</a></li>
+                <li><a href="#">Описание</a></li>
+            </ul>
+        </nav>
+        <button class="btn btn-auth">Войти</button>
+    </div>
 </header>
 
 <hr>
-
 <main>
-    <div>
+    <div class="container">
         <h1>Лис и Волк</h1>
-        <img src="https://youfriends.ru/public/promo_cache/chanel_logo_UCk06Qjz9nxAWLQMZ4UxaiLQ.png"
+        <img src="img/FoxandRaccoon.png"
              alt="сабутыльники"
              width="500">
 
     </div>
-    <div>
+    <div class="container">
         <h2>Каталог</h2>
         <div>
             <h3>Волк</h3>
-            <img src="https://i.pinimg.com/originals/18/31/dc/1831dcb1afa6f816efb2c992d33e3f14.jpg"
+            <img src="img/wolf.jpg"
                  alt=""
                  width="500">
             <p>Волк для Веселья</p>
@@ -50,7 +54,7 @@
         <div>
 
             <h3>Лис</h3>
-            <img src="https://popgun.ru/files/g/14/orig/1028498.jpg"
+            <img src="img/drunk%20fox.jpg"
                  alt=""
                  width="500">
             <p>Лис для Пивка</p>
@@ -59,7 +63,7 @@
         </div>
         <div>
             <h3>Енот?</h3>
-            <img src="https://cs9.pikabu.ru/post_img/2019/09/09/7/15680252032011438.jpg"
+            <img src="img/Raccoon%20under%20Wine.jpg"
                  alt=""
                  width="500">
             <p>Енот для Вина</p>
@@ -77,17 +81,15 @@
 <hr>
 
 <footer>
-    <ul>
+    <div class="container"> <ul>
         <li><a href="#">Контакты</a></li>
         <li><a href="#">Описание</a></li>
     </ul>
-    <ul>
-        <li><a href="#">Правила</a></li>
-        <li><a href="#">Политика</a></li>
-        <li><a href="#">Условия</a></li>
-    </ul>
-
-
+        <ul>
+            <li><a href="#">Правила</a></li>
+            <li><a href="#">Политика</a></li>
+            <li><a href="#">Условия</a></li>
+        </ul></div>
 </footer>
 
 </body>
