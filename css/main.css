@@ -13,7 +13,7 @@ a {
 body {
     font-family: 'M PLUS 1p';
     font-size: 16px;
-    background-color: rgba(245, 209, 67, 0.75);
+    background-color: rgba(232, 212, 151, 0.75);
 }
 
 .menu-list {
@@ -46,13 +46,13 @@ body {
 }
 
 .btn:hover {
-    border-color: #a8a8a8;
-    color: #a8a8a8;
+    border-color: #908f8f;
+    color: #908f8f;
 }
 
 #header {
-    background-color: #faf3dd;
-    box-shadow: -1px 1px 8px 5px #cbc8c8;
+    background-color: rgba(224, 84, 40, 0.89);
+    box-shadow: -1px 1px 8px 5px rgba(161, 76, 37, 0.62);
     position: fixed;
     width: 100%;
     height: 60px;
@@ -78,16 +78,16 @@ body {
 }
 
 #header .menu-list a:hover {
-    color: #a8a8a8;
+    color: #afadad;
 }
 
-#logo {
+.logo {
     float: left;
     display: flex;
 }
 
-#logo span {
-    font-size: 40px;
+.logo span {
+    font-size: 50px;
     font-weight: bold;
     color: #000000;
     margin-left: 5px;
@@ -96,3 +96,53 @@ body {
 main {
     padding-top: 50px;
 }
+footer {
+    background-color: #eeeef6;
+    margin-top: 1px;
+    box-shadow: 0 1px 16px 0 #979595;
+}
+
+.first-footer-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .footer-menu {
+    list-style: none;
+}
+
+footer .footer-menu a {
+    color: #616161;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .footer-menu a:hover {
+    color: #61728d;
+}
+.last-footer-block {
+    background-color: #66625d;
+    color: rgba(165, 165, 170, 0.66);
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.last-footer-block span {
+    cursor: default;
+}
+
+.last-footer-block ul {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.last-footer-block ul li:first-child {
+    margin-right: 10px;
+}
+
+.last-footer-block a:hover {
+    color: #c7c4c4; }
