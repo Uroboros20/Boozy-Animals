@@ -6,64 +6,75 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная - Лис и Волк</title>
+    <link href="img/fox-logo.png"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<header id="header">
+    <div class="container">
+        <a class="logo" href="#">
+            <img src="img/fox-logo.png" alt="Logo" width="60">
+            <span><span class="logo-first-text">Лис</span><span>и</span><span class="logo-last-text">Волк</span></span>
+        </a>
 
-<header>
-    <a href="#">
-        <img src="https://cdn2.f-cdn.com/contestentries/949093/20073033/589f765cbd43d_thumb900.jpg"
-             alt="Logo"
-             width="70">
-        <span>Лис и Волк</span>
-    </a>
-
-    <nav>
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Гугл</a></li>
-            <li><a href="#">Описание</a></li>
-        </ul>
-    </nav>
-
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Гугл</a></li>
+                <li><a href="#">Описание</a></li>
+            </ul>
+        </nav>
+        <button class="btn btn-auth">Войти</button>
+    </div>
 </header>
 
-<hr>
-
-<main>
-    <div>
-        <h1>Лис и Волк</h1>
-        <img src="https://youfriends.ru/public/promo_cache/chanel_logo_UCk06Qjz9nxAWLQMZ4UxaiLQ.png"
-             alt="сабутыльники"
-             width="500">
-
+<main class="catalog-page">
+    <div class="head-block">
+        <div class="container">
+            <h1>Лис и Волк</h1>
+            <p>друзья меньшие на час</p>
+        </div>
     </div>
-    <div>
-        <h2>Каталог</h2>
-        <div>
-            <h3>Волк</h3>
-            <img src="https://i.pinimg.com/originals/18/31/dc/1831dcb1afa6f816efb2c992d33e3f14.jpg"
-                 alt=""
-                 width="500">
-            <p>Волк для Веселья</p>
-            <a href="#">кнопка</a>
-        </div>
-        <div>
+    <div class="container">
+        <h2>Каталог друзей меньших</h2>
+        <aside class="filter-block">
+            <span>Фильтры:</span>
+        </aside>
+        <div class="catalog-content">
+            <div class="cards-block">
+                <div class="card-item">
+                    <img src="img/wolf.jpg" alt="">
+                    <div class="card-text-items">
+                        <h3>Волк</h3>
+                        <p>Волк для Веселья и прятного время припровождения, не пьет боится одичать
+                            любит активный оброз жизни знает как оказать первую помощь работал санитаром</p>
+                        <div><a class="btn" href="#">кнопка</a></div>
+                    </div>
 
-            <h3>Лис</h3>
-            <img src="https://popgun.ru/files/g/14/orig/1028498.jpg"
-                 alt=""
-                 width="500">
-            <p>Лис для Пивка</p>
-            <a href="#">Кнопка2</a>
+                </div>
 
-        </div>
-        <div>
-            <h3>Енот?</h3>
-            <img src="https://cs9.pikabu.ru/post_img/2019/09/09/7/15680252032011438.jpg"
-                 alt=""
-                 width="500">
-            <p>Енот для Вина</p>
-            <a href="#">Кнопка3</a>
+                <div class="card-item">
+                    <img src="img/drunk%20fox.jpg" alt="">
+                    <div class="card-text-items">
+                        <h3>Лис</h3>
+                        <p>Лис для Пивка</p>
+                        <div><a class="btn" href="#">Кнопка2</a></div>
+                    </div>
+
+
+                </div>
+
+                <div class="card-item">
+                    <img src="img/Raccoon%20under%20Wine.jpg" alt="">
+                    <div class="card-text-items">
+                        <h3>Енот?</h3>
+                        <p>Енот для Вина</p>
+                        <div><a class="btn" href="#">Кнопка3</a></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div>
@@ -71,24 +82,27 @@
         </div>
     </div>
 
-
 </main>
 
-<hr>
-
 <footer>
-    <ul>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">Описание</a></li>
-    </ul>
-    <ul>
-        <li><a href="#">Правила</a></li>
-        <li><a href="#">Политика</a></li>
-        <li><a href="#">Условия</a></li>
-    </ul>
-
-
-</footer>
+    <div class="container first-footer-block">
+        <a class="logo" href="#">
+            <img src="img/wolf-logo.png"
+                 alt="logo"
+                 width="60">
+            <span>Лис и Волк</span>
+        </a>
+    </div>
+    <div class="last-footer-block">
+        <div class="container">
+            <span>© 2022 - Лис и Волк</span>
+            <ul>
+                <li><a href="#">Политика конфидециальности</a></li>
+                <li><a href="#">Условия использования</a></li>
+            </ul>
+        </div>
+    </div>
+ </footer>
 
 </body>
 </html>
