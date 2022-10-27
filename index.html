@@ -14,10 +14,8 @@
 <header id="header">
     <div class="container">
         <a class="logo" href="#">
-            <img src="img/fox-logo.png"
-                 alt="Logo"
-                 width="60">
-            <span>Лис и Волк</span>
+            <img src="img/fox-logo.png" alt="Logo" width="60">
+            <span><span class="logo-first-text">Лис</span><span>и</span><span class="logo-last-text">Волк</span></span>
         </a>
 
         <nav>
@@ -31,42 +29,52 @@
     </div>
 </header>
 
-<hr>
-<main>
+<main class="catalog-page">
     <div class="head-block">
-         <div class="container">
+        <div class="container">
             <h1>Лис и Волк</h1>
             <p>друзья меньшие на час</p>
         </div>
-
     </div>
     <div class="container">
-        <h2>Каталог</h2>
-        <div>
-            <h3>Волк</h3>
-            <img src="img/wolf.jpg"
-                 alt=""
-                 width="500">
-            <p>Волк для Веселья</p>
-            <a href="#">кнопка</a>
-        </div>
-        <div>
+        <h2>Каталог друзей меньших</h2>
+        <aside class="filter-block">
+            <span>Фильтры:</span>
+        </aside>
+        <div class="catalog-content">
+            <div class="cards-block">
+                <div class="card-item">
+                    <img src="img/wolf.jpg" alt="">
+                    <div class="card-text-items">
+                        <h3>Волк</h3>
+                        <p>Волк для Веселья и прятного время припровождения, не пьет боится одичать
+                            любит активный оброз жизни знает как оказать первую помощь работал санитаром</p>
+                        <div><a class="btn" href="#">кнопка</a></div>
+                    </div>
 
-            <h3>Лис</h3>
-            <img src="img/drunk%20fox.jpg"
-                 alt=""
-                 width="500">
-            <p>Лис для Пивка</p>
-            <a href="#">Кнопка2</a>
+                </div>
 
-        </div>
-        <div>
-            <h3>Енот?</h3>
-            <img src="img/Raccoon%20under%20Wine.jpg"
-                 alt=""
-                 width="500">
-            <p>Енот для Вина</p>
-            <a href="#">Кнопка3</a>
+                <div class="card-item">
+                    <img src="img/drunk%20fox.jpg" alt="">
+                    <div class="card-text-items">
+                        <h3>Лис</h3>
+                        <p>Лис для Пивка</p>
+                        <div><a class="btn" href="#">Кнопка2</a></div>
+                    </div>
+
+
+                </div>
+
+                <div class="card-item">
+                    <img src="img/Raccoon%20under%20Wine.jpg" alt="">
+                    <div class="card-text-items">
+                        <h3>Енот?</h3>
+                        <p>Енот для Вина</p>
+                        <div><a class="btn" href="#">Кнопка3</a></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div>
@@ -74,10 +82,7 @@
         </div>
     </div>
 
-
 </main>
-
-<hr>
 
 <footer>
     <div class="container first-footer-block">
@@ -96,7 +101,8 @@
                 <li><a href="#">Условия использования</a></li>
             </ul>
         </div>
-</footer>
+    </div>
+ </footer>
 
 </body>
 </html>

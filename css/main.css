@@ -13,6 +13,10 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 body {
     font-family: 'M PLUS 1p';
     font-size: 16px;
@@ -54,12 +58,13 @@ body {
 }
 
 #header {
-    background-color: rgba(224, 84, 40, 0.89);
+    background-color: rgb(224, 84, 40);
     box-shadow: -1px 1px 8px 5px rgba(161, 76, 37, 0.62);
     position: fixed;
     width: 100%;
     height: 60px;
     z-index: 1;
+    opacity: 0.9;
 }
 
 #header nav {
@@ -93,9 +98,20 @@ body {
 .logo span {
     font-size: 50px;
     font-weight: bold;
-    color: #000000;
+    color: #60656CFF;
     margin-left: 5px;
 }
+
+.logo span .logo-first-text {
+    color: #74260f;
+    margin-right: 10px;
+}
+
+.logo span .logo-last-text {
+    color: #1a1515;
+    margin-left: 10px;
+}
+
 
 main {
     padding-top: 50px;
@@ -165,9 +181,80 @@ footer .footer-menu a:hover {
     box-shadow: -1px 1px 8px 5px rgb(222, 204, 184);
 }
 .head-block h1 {
-    padding-top: 120px ;
+    padding-top: 120px;
+    color: #1d1a1a;
 }
 .head-block p {
     font-size: 21px;
     margin-top: 8px;
+}
+
+.catalog-page h2 {
+    color: #e16337;
+}
+
+.filter-block {
+    float: left;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #e16337;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.catalog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-block {
+
+}
+
+
+.card-item {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.card-item img {
+    float:left;
+    width: 400px;
+    height: 300px;
+    border-radius: 6px;
+    margin-right: 12px;
+}
+
+.card-item .card-text-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item .card-text-items h3 {
+    font-size: 20px ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+}
+
+.card-item .card-text-items .btn {
+    opacity: 0.8;
+    font-weight: normal;
+    color: #61728d;
+    background-color: bisque;
+    border: none;
+    float: right;
+}
+.card-item .card-text-items p {
+    color: #e16337;
+    font-size: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 28px;
 }
